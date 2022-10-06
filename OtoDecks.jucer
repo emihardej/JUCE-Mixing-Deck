@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="xR76eO" name="OtoDecks" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="H2FFpX" name="OtoDecks">
+    <GROUP id="{327E98F1-B561-D076-4D42-DA4B9E632A53}" name="Source">
+      <FILE id="KoL01Z" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent.cpp"/>
+      <FILE id="UBinFb" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="O6LwKu" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="Y0WmvH" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="OBSXxy" name="DeckGUI.cpp" compile="1" resource="0" file="Source/DeckGUI.cpp"/>
+      <FILE id="kNQjDE" name="DeckGUI.h" compile="0" resource="0" file="Source/DeckGUI.h"/>
+      <FILE id="rLDCso" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="bUpT66" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="QB9oVn" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="t8LyXR" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="x2NZTN" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="OtoDecks"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="OtoDecks"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="OtoDecks"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="OtoDecks"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/Users/Emi/OneDrive/Desktop/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
